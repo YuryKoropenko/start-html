@@ -26,6 +26,17 @@ ol, ul {
   list-style: none;
 }
 
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.clearfix:before {
+  content: '';
+  display: table;
+}
+
 body {
   font-size: 16px;
   min-width: 320px;

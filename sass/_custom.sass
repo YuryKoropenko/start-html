@@ -24,3 +24,12 @@ input, input:active, input:focus
 
 ol, ul
 	list-style: none
+
+.clearfix
+	&:after
+		content: ''
+		display: table
+		clear: both
+	&:before
+		content: ''
+		display: table
