@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/*Сброс*/
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,26 +28,18 @@ ol, ul {
   list-style: none;
 }
 
-.clearfix:after {
-  content: '';
-  display: table;
-  clear: both;
+.hidden {
+  display: none;
 }
 
-.clearfix:before {
-  content: '';
-  display: table;
-}
-
+/*Внешние блоки*/
 body {
   font-size: 16px;
   min-width: 320px;
   position: relative;
-  line-height: 16px;
-  font-family: "RobotoRegular", sans-serif;
+  line-height: 1.25;
+  font-family: "RobotoRegularNew", sans-serif;
   overflow-x: hidden;
 }
 
-.hidden {
-  display: none;
-}
+/*Компоненты*/
